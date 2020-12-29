@@ -12,13 +12,13 @@ redirect_from:
 Education
 ======
 * B.S. in Business and Economics, Università di Bologna, 2017
-* M.S. in Economic Policy, Utrecth Universiteit, 2018
+* M.S. in Economic Policy, Utrecht Universiteit, 2018
 * Ph.D in Economics and Complexity, Collegio Carlo Alberto (current position)
 
 Work experience
 ======
 * 2018-2020: Research Analyst
-  * Bruegel - Economics think tank (Bruessels)
+  * Bruegel - Economics think tank (Brussels)
 
 * Fall 2016: Research Assistant 
   * Nomisma - Real Estate Economics think tank (Bologna)
