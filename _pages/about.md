@@ -13,7 +13,7 @@ I am a first year PhD Candidate in Economics and Complexity, at the "Vilfredo Pa
 _Work in progress:_
 ------
 
-* _"Talking about Europe: exploring 70 years of news archives"_ - with Emmanuel Mourlon-Druol
+* _"Talking about Europe: exploring 70 years of news archives"_ - with Emmanuel Mourlon-Druol [Working Paper](https://www.bruegel.org/2021/03/talking-about-europe-exploring-70-years-of-news-archives/)
 * _"How Interested Are European Union Citizens in European Matters?"_ - with Francesco Papadia, Emmanuel Mourlon-Druol and Giuseppe Porcaro
 * _"Text mining into the Delors Committee records"_ - with Emmanuel Mourlon-Druol
 * _"Why do we participate? Determinants of Civic Engagement in the Netherlands"_ - with Elisa Castagno
