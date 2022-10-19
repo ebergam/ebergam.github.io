@@ -8,7 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year PhD Candidate in Economics and Complexity, at the "Vilfredo Pareto" Doctorate Program at Collegio Carlo Alberto, in Turin. Before this, I was writing for a [think tank](https://bruegel.org/author/enrico-bergamini). I am interested in applied research and data science, in fields including economics of innovation, industrial policy, climate change economics, political economy and media economics. You can check out some of my work [here](/publications), and take a look at my CV [here](/CV).
+I am a third-year PhD Candidate in Economics and Complexity, at the "Vilfredo Pareto" Doctorate Program at Collegio Carlo Alberto, in Turin, currently visiting the ICTA research center at Universitat Autonoma Barcelona. I am working under the supervision of Francesco Quatraro (UniTo) and Jeroen van den Bergh (ICTA-UAB).
+
+Prior to starting the PhD, I worked for the European think tank [Bruegel](https://bruegel.org/author/enrico-bergamini). 
+
+I am an applied researcher, mainly working on Economics of Innovation and Climate, as well as on Political Economics. Methodologically, I have a strong interest in spatial analysis, and the use of non-conventional (big) data sources.
+
+You can check out my papers [here](/publications) or on [Scholar](https://scholar.google.com/citations?user=qedxNoIAAAAJ&hl=en), and download my curriculum [here](/CV).
 
 <!-- _Work in progress:_
 ------
