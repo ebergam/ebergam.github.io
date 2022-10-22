@@ -12,7 +12,7 @@ I am a third-year PhD Candidate in Economics and Complexity, at the "Vilfredo Pa
 
 Prior to starting the PhD, I worked for the European think tank [Bruegel](https://bruegel.org/author/enrico-bergamini). 
 
-I am an applied researcher, mainly working on Economics of Innovation and Climate, as well as on Political Economics. Methodologically, I have a strong interest in spatial analysis, and the use of non-conventional (big) data sources.
+I am an applied researcher, mainly working on Economics of innovation, climate, and green industrial policies. Methodologically, I have a strong interest in spatial analysis, and the use of non-conventional (big) data sources.
 
 You can check out my papers [here](/publications) or on [Scholar](https://scholar.google.com/citations?user=qedxNoIAAAAJ&hl=en), and download my curriculum [here](/CV).
 
