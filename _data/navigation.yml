@@ -16,8 +16,8 @@ main:
 #  - title: "Portfolio"
 #    url: /portfolio/
         
-  - title: "Blog"
-    url: https://medium.com/@enricobergamini #/year-archive/
+  # - title: "Blog"
+  #   url: https://medium.com/@enricobergamini #/year-archive/
     
   - title: "CV"
     url: /cv/

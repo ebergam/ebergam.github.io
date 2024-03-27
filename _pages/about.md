@@ -16,20 +16,22 @@ I am working under the supervision of Francesco Quatraro (UniTo) and Jeroen van 
 
 Prior to starting the PhD, I worked for the European think tank [Bruegel](https://bruegel.org/author/enrico-bergamini). 
 
-I am an applied researcher, now working on Evolutionary Economic Geography, Foreign Direct Investments, climate policy and innovation. 
-Methodologically, I have a strong interest in spatial analysis, Natural Language Processing, and the use of non-conventional (big) data sources.
+I am an applied researcher, now working on Economic Complexity, green innovation, Foreign Direct Investments and Climate Policy.
 
-You can check out my papers [here](/publications) or on [Scholar](https://scholar.google.com/citations?user=qedxNoIAAAAJ&hl=en), and download my curriculum [here](/CV).
+Methodologically, I have a strong interest in spatial analysis, network analysis, Natural Language Processing, and the use of non-conventional (big) data sources.
+
+My publications are listed on [Scholar](https://scholar.google.com/citations?user=qedxNoIAAAAJ&hl=en), and you can download my curriculum [here](/CV_EnricoBergamini.pdf).
 
 
 _Work in progress:_
+
 ------
-* _"Recombinant novelty and Foreign Direct Investments: evidence from European Regions"_ - with Francesco Quatraro and Alessandra Scandura
-* _"Every cloud has a green lining: FDIs, recombinant capabilities and green diversification in US Metropolitan Areas"_ - with Fabrizio Fusillo, Gianluca Orsatti, Francesco Quatraro and Alessandra Scandura
-* _"Exploring expert opinion on climate policy using Twitter"_ - with Ivan Savin and Jeroen van den Bergh
+* _"Climate Policy Uncertainty and Green Innovation: European firm-level evidence."_ (In preparation)
 
+* _"Spreading the word: FDI networks, patent texts, and the diffusion of green technologies across regions."_ (In preparation)
 
-_Other working papers:_
-* _"Text mining into the Delors Committee records"_ - with Emmanuel Mourlon-Druol
-* _"Talking about Europe: exploring 70 years of news archives"_ - with Emmanuel Mourlon-Druol [Working Paper](https://www.bruegel.org/2021/03/talking-about-europe-exploring-70-years-of-news-archives/)
-* _"How Interested Are European Union Citizens in European Matters?"_ - with Francesco Papadia, Emmanuel Mourlon-Druol and Giuseppe Porcaro
+* _"Green diversification, global knowledge sourcing and local skill composition: evidence from US cities"_ (with Fabrizio Fusillo, Gianluca Orsatti, Francesco Quatraro, Alessandra Scandura)
+
+* _"Recombinant novelty and Foreign Direct Investments: evidence from European Regions"_ (with Francesco Quatraro, Alessandra Scandura)
+
+* _"Exploring expert opinion on climate policy using Twitter"_ (with Ivan Savin, Jeroen van den Bergh)
