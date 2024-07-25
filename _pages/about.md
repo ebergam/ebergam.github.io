@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<!--
 I am a fourth year PhD Candidate in Economics and Complexity, at the "Vilfredo Pareto" Doctorate Program at Collegio Carlo Alberto, in Turin.
 
 After visiting the [ICTA](https://www.uab.cat/icta/) research center at Universitat Autonoma Barcelona, I am now visiting the [AQR](http://www.ub.edu/aqr/index.php) research group at Universitat de Barcelona. 
@@ -35,3 +35,7 @@ _Work in progress:_
 * _"Recombinant novelty and Foreign Direct Investments: evidence from European Regions"_ (with Francesco Quatraro, Alessandra Scandura)
 
 * _"Exploring expert opinion on climate policy using Twitter"_ (with Ivan Savin, Jeroen van den Bergh)
+
+-->
+
+Under construction
