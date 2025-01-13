@@ -19,9 +19,10 @@ I have a strong interest in spatial data science, networks, NLP, scraping and no
 My publications are listed on [Google Scholar](https://scholar.google.com/citations?user=qedxNoIAAAAJ&hl=en).
 
 
+------
+
 _Work in progress:_
 
-------
 * _"Climate Policy Uncertainty and Green Innovation: evidence from European firms"_ (Job Market Paper - [link](https://www.enricobergamini.it/EnricoBergamini_JMP.pdf))
 
 * _"Global Networks, Local Inequalities: The Impact of GPN Participation on Wage Inequality in European Regions"_ (with Vieri Calogero, Simona Comi, Laura Resmini)
