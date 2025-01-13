@@ -1,41 +1,37 @@
 ---
 permalink: /
 title: "Enrico Bergamini"
-excerpt: "PhD Candidate in Economics and Complexity"
+excerpt: "Economist and Data Scientist"
 author_profile: false
 redirect_from: 
   - /about/
   - /about.html
 ---
-<!--
-I am a fourth year PhD Candidate in Economics and Complexity, at the "Vilfredo Pareto" Doctorate Program at Collegio Carlo Alberto, in Turin.
 
-After visiting the [ICTA](https://www.uab.cat/icta/) research center at Universitat Autonoma Barcelona, I am now visiting the [AQR](http://www.ub.edu/aqr/index.php) research group at Universitat de Barcelona. 
+I am pursuing a PhD in Economics at Collegio Carlo Alberto (Turin) and working as Research Fellow at the University of Milan-Bicocca.
 
-I am working under the supervision of Francesco Quatraro (UniTo) and Jeroen van den Bergh (ICTA-UAB).
+Prior to starting the PhD, I worked at the European think tank Bruegel ([publications](https://bruegel.org/author/enrico-bergamini)).
 
-Prior to starting the PhD, I worked for the European think tank [Bruegel](https://bruegel.org/author/enrico-bergamini). 
+I am an applied econmists and data scientists, working mainly on green industrial policy, economic geography, policy uncertainty, and computational social science. 
 
-I am an applied researcher, now working on Economic Complexity, green innovation, Foreign Direct Investments and Climate Policy.
+I have a strong interest in spatial data science, networks, NLP, scraping and non-conventional (big) data sources (like newspaper archives).
 
-Methodologically, I have a strong interest in spatial analysis, network analysis, Natural Language Processing, and the use of non-conventional (big) data sources.
-
-My publications are listed on [Scholar](https://scholar.google.com/citations?user=qedxNoIAAAAJ&hl=en), and you can download my curriculum [here](/CV_EnricoBergamini.pdf).
+My publications are listed on [Google Scholar](https://scholar.google.com/citations?user=qedxNoIAAAAJ&hl=en).
 
 
 _Work in progress:_
 
 ------
-* _"Climate Policy Uncertainty and Green Innovation: European firm-level evidence."_ (In preparation)
+* _"Climate Policy Uncertainty and Green Innovation: evidence from European firms"_ (Job Market Paper)
 
-* _"Spreading the word: FDI networks, patent texts, and the diffusion of green technologies across regions."_ (In preparation)
+* _"Global Networks, Local Inequalities: The Impact of GPN Participation on Wage Inequality in European Regions"_ (with Vieri Calogero, Simona Comi, Laura Resmini)
+
+* _"UP the Smile Curve: What Advantages for European Regions?"_ (with Vieri Calogero, Laura Resmini)
 
 * _"Green diversification, global knowledge sourcing and local skill composition: evidence from US cities"_ (with Fabrizio Fusillo, Gianluca Orsatti, Francesco Quatraro, Alessandra Scandura)
 
 * _"Recombinant novelty and Foreign Direct Investments: evidence from European Regions"_ (with Francesco Quatraro, Alessandra Scandura)
 
-* _"Exploring expert opinion on climate policy using Twitter"_ (with Ivan Savin, Jeroen van den Bergh)
+* _"Communication by scientists on Twitter shows little consensus about climate policy"_ (with Ivan Savin, Jeroen van den Bergh)
 
--->
-
-Under construction
+* _"Economic Policy Uncertainty contagion across European countries"_ (with Giovanni Barci)
