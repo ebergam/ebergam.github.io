@@ -14,7 +14,7 @@ Prior to starting the PhD, I worked at the European think tank Bruegel ([publica
 
 I am an applied econmists and data scientists, working mainly on green industrial policy, economic geography, policy uncertainty, and computational social science. 
 
-I have a strong interest in spatial data science, networks, NLP, scraping and non-conventional (big) data sources (like newspaper archives).
+I have a strong interest in spatial data science, networks, NLP, scraping and non-conventional (big) data sources.
 
 My publications are listed on [Google Scholar](https://scholar.google.com/citations?user=qedxNoIAAAAJ&hl=en).
 
