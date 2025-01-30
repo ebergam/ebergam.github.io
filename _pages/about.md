@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Enrico Bergamini"
+title: "Enrico Bergamini, Ph.D."
 excerpt: "Economist and Data Scientist"
 author_profile: true
 redirect_from: 
@@ -8,9 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am pursuing a PhD in Economics at Collegio Carlo Alberto (Turin) and working as Research Fellow at the University of Milan-Bicocca.
+I am currently working as Research Fellow at the University of Milan-Bicocca.
 
-Prior to starting the PhD, I worked at the European think tank Bruegel ([publications](https://bruegel.org/author/enrico-bergamini)).
+I earned my Ph.D. in Economics at Collegio Carlo Alberto and University of Turin.
+
+Previously, I worked at the European think tank Bruegel ([publications](https://bruegel.org/author/enrico-bergamini)).
 
 I am an applied econmists and data scientists, working mainly on green industrial policy, economic geography, policy uncertainty, and computational social science. 
 
