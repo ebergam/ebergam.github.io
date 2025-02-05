@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Enrico Bergamini, Ph.D."
+title: "Enrico Bergamini"
 excerpt: "Economist and Data Scientist"
 author_profile: true
 redirect_from: 
