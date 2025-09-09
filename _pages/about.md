@@ -14,7 +14,7 @@ I earned my Ph.D. in Economics at Collegio Carlo Alberto and University of Turin
 
 Previously, I worked at the European think tank Bruegel ([publications](https://bruegel.org/author/enrico-bergamini)).
 
-I am an applied econmists and data scientists, working mainly on green industrial policy, economic geography, policy uncertainty, and computational social science. 
+I am an applied economists, working mainly on green industrial policy, economic geography, policy uncertainty, and computational social science. 
 
 I have a strong interest in spatial data science, networks, NLP, scraping and non-conventional (big) data sources.
 
