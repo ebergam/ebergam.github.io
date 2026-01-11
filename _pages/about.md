@@ -8,13 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working as Research Fellow at the University of Milan-Bicocca.
+I am an applied economists, focusing on green industrial policy and economic geography. I am currently working as postdoctoral researcher at ESADE Barcelona.
 
-I earned my Ph.D. in Economics at Collegio Carlo Alberto and University of Turin.
+I earned my Ph.D. in Economics at Collegio Carlo Alberto and University of Turin, and was Research Fellow at the University of Milan Bicocca.
 
 Previously, I worked at the European think tank Bruegel ([publications](https://bruegel.org/author/enrico-bergamini)).
-
-I am an applied economists, working mainly on green industrial policy, economic geography, policy uncertainty, and computational social science. 
 
 I have a strong interest in spatial data science, networks, NLP, scraping and non-conventional (big) data sources.
 
