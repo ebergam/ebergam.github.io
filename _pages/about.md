@@ -22,9 +22,9 @@ _Work in progress:_
 
 * _" Climate Policy Uncertainty and Directed Technical Change: evidence from European firms"_ (Job Market Paper - [link](https://www.enricobergamini.it/EnricoBergamini_JMP.pdf))
 
-* _"Recombinant novelty and Foreign Direct Investments: evidence from European Regions"_ (*_in review_*; with Francesco Quatraro, Alessandra Scandura)
+* _"Recombinant novelty and Foreign Direct Investments: evidence from European Regions"_ (**_in review_**; with Francesco Quatraro, Alessandra Scandura)
 
-* _"Mapping scientists’ communication on Twitter about climate policy"_ (*_in review_*; with Ivan Savin, Jeroen van den Bergh)
+* _"Mapping scientists’ communication on Twitter about climate policy"_ (**_in review_**; with Ivan Savin, Jeroen van den Bergh)
 
 * _"Global Networks, Local Inequalities: The Impact of GPN Participation on Wage Inequality in European Regions"_ (with Vieri Calogero, Simona Comi, Laura Resmini)
 
