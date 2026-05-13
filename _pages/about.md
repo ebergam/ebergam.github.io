@@ -40,4 +40,5 @@ _Publications:_
 
 * Bergamini E., Zachmann G., (2021). _Exploring EU's Regional Potential in Low-Carbon Technologies_, Sustainability, 13(1):32  [https://doi.org/10.3390/su13010032](https://doi.org/10.3390/su13010032)
 
-* Mourlon-Druol, E., Bergamini, E. (2024). _Economic union in the debates on the creation of the euro_, Journal of Digital History, 2(1). [https://journalofdigitalhistory.org/en/article/4ZDXFXQwhoA8](https://doi.org/10.1515/JDH-2023-0008)
+* Mourlon-Druol, E., Bergamini, E. (2024). _Economic union in the debates on the creation of the euro_, Journal of Digital History, 2(1). [
+https://doi.org/10.1515/jdh-2023-0008](https://doi.org/10.1515/JDH-2023-0008)
