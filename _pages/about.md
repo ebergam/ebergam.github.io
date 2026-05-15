@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an applied economist, focusing on green industrial policy and economic geography. I am currently working as postdoctoral researcher at ESADE Barcelona.
+I am an applied economist, focusing on green industrial policy, innovation and economic geography. I am currently working as postdoctoral researcher at ESADE Barcelona.
 
 I earned my Ph.D. in Economics at Collegio Carlo Alberto and University of Turin, and was Research Fellow at the University of Milan Bicocca.
 
