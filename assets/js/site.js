@@ -25,7 +25,7 @@
      technologies), matrix (adjacency matrix), arcs (arc diagram), radial (radial tree). */
   var PLACEMENTS = [
     { motif: "bipartite",   side: "right", top: "10%", size: 360, under: 0, bleed: 0 },
-    { motif: "communities", side: "right", top: "21%",  size: 600, aspect: 1, elong: 0.5, tilt: 270, groups: [10, 9, 8], under: 0.4, bleed: 0},
+    { motif: "communities", side: "right", top: "21%",  size: 600, aspect: 1, elong: 0.5, tilt: 270, groups: [10, 9, 8], under: 0.4, bleed: 0.3},
     { motif: "matrix",      side: "right", top: "70%",  size: 250, under: 0.05, bleed: 0 },
     { motif: "arcs",        side: "left",  top: "32%",  size: 420 },
     { motif: "radial",      side: "right", top: "45%",  size: 420 },
@@ -35,6 +35,8 @@
   ];
   var UNDER_TEXT = 0.3;  /* default share of each drawing under the text column (override per placement with "under") */
   var BLEED = 0.25;      /* default share allowed to run off the window edge (labelled drawings use 0) */
+  var MAX_UNDER = 0.6;   /* on smaller screens drawings may slide this far under the text (labelled ones never do) */
+  var SCALE_MIN = 1;     /* size on smaller screens relative to a 1920 px screen (1 = same size everywhere) */
 
   function rng(seed) { /* mulberry32 */
     return function () {
@@ -242,8 +244,11 @@
     var old = document.querySelector(".bg-net");
     if (old) old.parentNode.removeChild(old);
     var remPx = parseFloat(getComputedStyle(root).fontSize) || 16;
-    var colPx = parseFloat(getComputedStyle(root).getPropertyValue("--maxw")) * remPx;
-    var margin = (root.clientWidth - colPx) / 2 - 12;
+    var col = document.querySelector("main");
+    var colPx = col ? col.getBoundingClientRect().width : parseFloat(getComputedStyle(root).getPropertyValue("--maxw")) * remPx;
+    var vw = root.clientWidth;
+    var margin = (vw - colPx) / 2 - 12;
+    var scale = Math.max(SCALE_MIN, Math.min(1, vw / 1920));
     var layer = document.createElement("div");
     layer.className = "bg-net";
     layer.setAttribute("aria-hidden", "true");
@@ -251,13 +256,25 @@
       var under = p.under !== undefined ? p.under : UNDER_TEXT;
       var bleed = p.bleed !== undefined ? p.bleed : BLEED;
       var aspect = p.aspect || 1;
-      var w = Math.min(p.size * aspect, margin / (1 - under - bleed));
+      var labelled = p.motif === "bipartite" || p.motif === "matrix";
+      var maxUnder = p.maxUnder !== undefined ? p.maxUnder : (labelled ? under : Math.max(under, MAX_UNDER));
+      /* keep each drawing at full size on narrow windows: it runs off the window edge (up to
+         "bleed") and slides further under the text (up to maxUnder); only then does it shrink */
+      var w = p.size * aspect * scale;
+      var u = Math.min(maxUnder, Math.max(under, 1 - margin / w - bleed));
+      if ((1 - u - bleed) * w > margin) w = margin / (1 - u - bleed);
       var h = w / aspect;
       if (w < 130) return;
       var W = 100 * aspect, H = 100;
       var svg = el(layer, "svg", { viewBox: "0 0 " + f(W) + " " + H, width: Math.round(w), height: Math.round(h), focusable: "false" });
       svg.style.top = p.top;
-      svg.style[p.side === "left" ? "right" : "left"] = "calc(50% + var(--maxw) / 2 - " + Math.round(w * under) + "px)";
+      svg.style[p.side === "left" ? "right" : "left"] = "calc(50% + var(--maxw) / 2 - " + Math.round(w * u) + "px)";
+      if (u > under + 0.02) { /* fade the part that sits under the text, so the words stay readable */
+        var edge = (1 - u) * 100;
+        var mask = "linear-gradient(" + (p.side === "left" ? "to right" : "to left") + ", #000 " +
+          Math.max(0, edge - 4).toFixed(1) + "%, rgba(0,0,0,.38) " + Math.min(100, edge + 16).toFixed(1) + "%)";
+        svg.style.webkitMaskImage = mask; svg.style.maskImage = mask;
+      }
       MOTIFS[p.motif](svg, rng(idx * 7919 + 101), 100 / h, p, W, H);
     });
     document.body.insertBefore(layer, document.body.firstChild);

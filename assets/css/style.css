@@ -21,7 +21,7 @@
   --net-c0: #3e7a4f;
   --net-c1: #3d6487;
   --net-c2: #7a6438;
-  --maxw: 68rem;
+  --maxw: clamp(58rem, 70vw, 68rem); /* text column: 58rem on small laptops, grows with the window, 68rem from ~1550 px */
 }
 
 :root[data-theme="light"] {
