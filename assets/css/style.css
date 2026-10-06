@@ -265,3 +265,9 @@ h3 + .paper { border-top: 0; }
   .paper__fig { aspect-ratio: 16 / 10; }
   .entries li { grid-template-columns: 3.9rem minmax(0, 1fr); gap: .5rem; }
 }
+
+/* ---------- 404 page ---------- */
+.notfound { padding-top: 5rem; min-height: 60vh; }
+.notfound .prompt { overflow-wrap: anywhere; }
+.notfound__err { margin: 0 0 1.75rem; color: var(--muted); font-size: .85rem; }
+.notfound__text { margin: 1rem 0 0; max-width: 70ch; color: var(--text-2); }

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found · Enrico Bergamini</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:,">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="/">~/enrico-bergamini</a>
+      <nav aria-label="Sections">
+        <a href="/#research">research</a>
+        <a href="/#policy">policy</a>
+        <a href="/#teaching">teaching</a>
+        <a href="/CV_EnricoBergamini.pdf">cv</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="6.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.75a6.25 6.25 0 0 1 0 12.5z" fill="currentColor"/></svg></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap notfound">
+    <p class="prompt">$ cd <span id="path">this-page</span></p>
+    <p class="notfound__err">cd: no such file or directory</p>
+    <h1>404 · page not found</h1>
+    <p class="notfound__text">This page doesn’t exist, or it belonged to the old version of the site. Papers, policy work and teaching are now all on the homepage.</p>
+    <ul class="links">
+      <li><a href="/">home</a></li>
+      <li><a href="/#research">research</a></li>
+      <li><a href="/CV_EnricoBergamini.pdf">cv</a></li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span>© 2026 Enrico Bergamini · <a href="mailto:enrico.bergamini@esade.edu">enrico.bergamini@esade.edu</a></span>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement, p = document.getElementById("path"), btn = document.querySelector(".theme-toggle");
+      try { p.textContent = decodeURIComponent(location.pathname) || "/"; } catch (e) { p.textContent = location.pathname; }
+      function label() { btn.setAttribute("aria-label", root.getAttribute("data-theme") === "light" ? "Switch to dark theme" : "Switch to light theme"); }
+      btn.addEventListener("click", function () {
+        var next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+        root.setAttribute("data-theme", next);
+        try { localStorage.setItem("theme", next); } catch (e) {}
+        label();
+      });
+      label();
+    })();
+  </script>
+</body>
+</html>
