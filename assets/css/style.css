@@ -171,7 +171,8 @@ h3 + .paper { border-top: 0; }
 
 .paper__title { margin: 0; font-size: 1rem; line-height: 1.45; font-weight: 700; color: var(--text); }
 .paper__authors { margin: .3rem 0 0; font-size: .86rem; color: var(--text-2); }
-.paper__venue { margin: .1rem 0 0; font-size: .86rem; color: var(--muted); font-style: italic; }
+.paper__venue { margin: .35rem 0 0; font-size: .9rem; color: var(--muted); }
+.journal { color: var(--text); font-weight: 700; font-style: italic; }
 .paper__links { list-style: none; padding: 0; margin: .6rem 0 0; display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: .85rem; }
 
 .abstract { margin-top: .55rem; }
